@@ -23,3 +23,9 @@ print("El numero decimal es:",decimal)
 print(type(numero))
 print(type(decimal))
 print(type(verdadero))
+
+#Cambiar tipo de dato
+numero_deicmal = 10
+print(type(numero_deicmal))
+numero_decimal = float(10)
+print(type(numero_decimal))
