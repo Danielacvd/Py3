@@ -14,6 +14,7 @@ numero3 = numero + 1
 print(numero)
 print(f"{numero}")
 print(":",numero)
+print("Numero decimal " + str(decimal) + " Numero entero: " + str(numero))
 
 #Concatenar 
 print(f"Los numeros son: {numero} y {decimal}")
