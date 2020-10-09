@@ -30,3 +30,15 @@ y **= 1
 y -=1
 
 """
+
+"""
+Operadores de comparacion
+
+igual: ==
+distinto: !=
+menor: <
+menor igual: <=
+mayor: >
+mayor igual: >=
+
+"""
