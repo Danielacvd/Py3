@@ -18,6 +18,9 @@ print("Numero decimal " + str(decimal) + " Numero entero: " + str(numero))
 print(r"cd\nhola")
 print(f"{nombre*2}")
 
+#Las cadenas no son mutables
+#nombre[0] = 'J', no puedo hacer Janiel
+
 #Concatenar 
 print(f"Los numeros son: {numero} y {decimal}")
 print("El numero decimal es:",decimal)
