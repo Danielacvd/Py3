@@ -9,12 +9,14 @@ decimal = 10.5
 verdadero = True
 numero2 = f"{numero} y {decimal}"
 numero3 = numero + 1
-
+nombre = "Daniel"
 # Formas de imprimir
 print(numero)
 print(f"{numero}")
 print(":",numero)
 print("Numero decimal " + str(decimal) + " Numero entero: " + str(numero))
+print(r"cd\nhola")
+print(f"{nombre*2}")
 
 #Concatenar 
 print(f"Los numeros son: {numero} y {decimal}")
