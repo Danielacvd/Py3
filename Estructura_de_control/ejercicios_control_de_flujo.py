@@ -46,3 +46,15 @@ while numero % 2 != 1:
     numero = int(input())
 
 print("*** Ejercicio 3 ***")
+
+"""
+Realiza un programa que sume todos los números enteros pares desde el 0 hasta el 100.
+"""
+contador = 0
+for i in range(1, 101):
+    if i % 2 == 0:
+        contador += i
+else:
+    print("Fin ciclo for")
+
+print(f"La suma es {contador}")    
