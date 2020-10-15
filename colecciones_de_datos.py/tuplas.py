@@ -11,3 +11,10 @@ print(tupla[-1])
 print(tupla[2:])
 print(tupla[2][-1])
 
+#Funcion index() para saber la posicion de un elemento en la tupla
+print(tupla.index(100))
+#Si no lo encuentra enviara un error
+#con count() puedo contar cuantas veces aparece un elemento en la tupla
+print(tupla.count(100))
+#Si busca algo que no esta dentro de la tupla, no da error, dira 0
+#No disponen del metodo append()
