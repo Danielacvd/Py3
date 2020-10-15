@@ -57,4 +57,66 @@ for i in range(1, 101):
 else:
     print("Fin ciclo for")
 
-print(f"La suma es {contador}")    
+print(f"La suma es {contador}")  
+
+#Otra forma
+
+suma = sum(range(0, 101, 2))
+print(suma)
+
+print("*** Ejercicio 4 ***")
+
+"""
+Realiza un programa que pida al usuario cuantos números quiere introducir. Luego lee todos los números y realiza una media aritmética.
+"""
+
+numeros = int(input("Introduce la cantidad de numeros que quieres entregar: "))
+
+i = 0
+contador = []
+while i < numeros:
+    contador.append(int(input()))
+    i += 1
+resultado = sum(contador)/len(contador)
+print(f"La suma de los {len(contador)} es {sum(contador)} y la media aritmetica es {resultado}") 
+
+print("*** Ejercicio 5 ***")
+
+"""
+Realiza un programa que pida al usuario un número entero del 0 al 9, y que mientras el número no sea correcto se repita el proceso. Luego debe comprobar si el número se encuentra en la lista de números y notificarlo:
+"""
+
+lista = [0,1,2,3,4,5,6,7,8,9]
+
+
+while True:
+    numero = int(input("Introduce un numero: "))
+    if numero in lista:
+        print(f"El numero {numero}, si esta en la lista")
+        break
+else:
+    print("Ingresa otro numero")
+
+print("*** Ejercicio 6 ***")
+
+"""
+Utilizando la función range() y la conversión a listas genera las siguientes listas dinámicamente:
+
+Todos los números del 0 al 10 [0, 1, 2, ..., 10]
+Todos los números del -10 al 0 [-10, -9, -8, ..., 0]
+Todos los números pares del 0 al 20 [0, 2, 4, ..., 20]
+Todos los números impares entre -20 y 0 [-19, -17, -15, ..., -1]
+Todos los números múltiples de 5 del 0 al 50 [0, 5, 10, ..., 50]
+
+"""
+
+lista_1 = list(range(0, 11)) 
+lista_2 = list(range(-10, 1, 1))
+lista_3 = list(range(0, 21, 2))
+lista_4 = list(range(-19, 1, 2))
+lista_5 = list(range(0, 51, 5))
+print(lista_1)
+print(lista_2)
+print(lista_3)
+print(lista_4)
+print(lista_5)
