@@ -1,5 +1,15 @@
 """
-Estructura de control If, elif, else
+Estructura de control If, elif, else, siempre que una condicion sea verdadera se entrara en el if
+
+if True:  equivale a if not False
+if a[0]:
+
+Instrucción pass
+Sirve para finalizar un bloque, se puede utilizar en un bloque vacío:
+
+if True:
+    pass
+
 """
 
 n1 = 10
