@@ -13,6 +13,7 @@ conjunto = {}
 
 #Metodo add(), annade un elemento si no lo encuentra dentro del cunjunto
 conjunto = {1,2,3}
+print(type(conjunto))
 conjunto.add(4)
 print(conjunto)
 conjunto.add(4)
@@ -47,3 +48,4 @@ print(conjunto_2)
 cadena = 'Al pan pan y al vino vino'
 cadena_2 = set(cadena)
 print(cadena_2)
+print(type(cadena_2))
