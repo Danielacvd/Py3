@@ -27,4 +27,4 @@ print(cola)
 print(cola.popleft())  #Devuelvo el 2 y lo borro de la cola
 print(cola)            #Solo queda 'Daniel'
 
-
+#Una buena practica es siempre guardar los elementos al sacarlos o se perderan para siempre.
