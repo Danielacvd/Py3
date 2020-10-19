@@ -22,7 +22,7 @@ print(conjunto)
 #Ademas que este 4, no necesariamente lo incluira en la ultima posicion, lo dejare en cualquier parte xd.
 
 
-#Para la verificar si un elemento pertene a un conjunto podemos usar la sintaxis in, 
+#Para verificar si un elemento pertenece a un conjunto podemos usar la sintaxis in, 
 
 print('Daniel' in conjunto)
 #in retorna True o False
@@ -30,7 +30,7 @@ print('Daniel' in conjunto)
 conjunto.add('Daniel')
 print('Daniel' in conjunto)
 print(conjunto)
-
+print('Daniel' not in conjunto)
 # Tambien se puede usar de la misma forma que el in, el not in
 
 #Los conjuntos no pueden tener el mismo elementos mas de una vez, no adminte elementos duplicados, se borran automaticamente.
@@ -43,7 +43,7 @@ print(lista)
 print(conjunto_2)
 
 #Conversion con cadenas
-#Hacer esta conversion nos permitira sacar todos los caracteres dentro de una cadena, sin duplicados.
+#Hacer esta conversion nos permitira sacar todos los caracteres dentro de una cadena, sin los duplicados.
 
 cadena = 'Al pan pan y al vino vino'
 cadena_2 = set(cadena)
