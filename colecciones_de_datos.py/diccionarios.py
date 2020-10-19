@@ -4,7 +4,7 @@ Diccionarios Python3
 Se basan en una estructura mapeada donde cada elemento de la coleccion se encuentra identificado por una clave unica, por lo cual no puede haber 2 claves iguales. En otros lenguajes se conocen como arreglos asociativos.
 Estos se definen iguales que los conjuntos, se usan llaves {}.
 
-Si inicializo una variable con las llaves {} vacias las toma como dicc, pero si le annado algo, como var = {1,2} cambia a set, que este ya no tiene la estructura del diccionario, clave : valor .
+Si inicializo una variable con las llaves {} vacias las toma como dicc, pero si le annado algo, como var = {1,2} cambia a set, ya que este ya no tiene la estructura del diccionario, clave : valor .
 """
 
 hola = {}

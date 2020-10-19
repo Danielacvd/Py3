@@ -15,7 +15,8 @@ print(lista)
 
 #Para sacar elemento usamos el metodo pop(), al usar pop() devolvemos el ultimo elemento y lo borramos
 
-lista.pop()
+eliminado = lista.pop()
+print(eliminado)
 print(lista)
 
 #Cuando ya no hay elementos en la lista y usamos el pop() dara error, ya que se encuentra vacia
