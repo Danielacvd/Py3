@@ -73,6 +73,33 @@ n = 10
 print(doble(n))
 print(n)
 
+Paso por referencia
+Las listas y otras colecciones son datos compuestos por lo que se pasan por referencia, por lo que se los modifico desde la funcion lo modificare tambien afuera.
+
+lista_n = [1,2,3]
+print(lista_n)    
+def altera_lista(lista):
+    lista.append(4)
+    print(lista)
+altera_lista(lista_n)
+print(lista_n  
+
+Tambien se pueden modificar los tipos simples, los devolvemos modificados y se los reasignamos a su variable
+def doble(numero):
+    return numero * 2
+
+n = 10
+n = doble(n)
+print(n)
+
+En el caso de los tipos de datos compuestos, podemos evitar la modificacion enviando una copia
+def doblar_valores(numeros):
+    for i,n in enumerate(numeros):
+        numeros[i] *= 2
+
+ns = [10,50,100]
+doblar_valores(ns[:])  # Una copia al vuelo de una lista con [:]
+print(ns)
 """
 
 def nombre_funcion(parametro):
@@ -108,4 +135,13 @@ def doble(numero):
 n = 10
 print(doble(n))
 print(n)
+
+print("\nASD")
+lista_n = [1,2,3]
+print(lista_n)    
+def altera_lista(lista):
+    lista.append(4)
+    print(lista)
+altera_lista(lista_n)
+print(lista_n    
 
