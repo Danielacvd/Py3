@@ -1,6 +1,7 @@
 """
 Funciones en python3
 
+Definicion o llamada:
 Syntax Basica:
 def nombre_funcion():
     codigo....
