@@ -36,31 +36,42 @@ Arqumentos y parametros
 Los valores que recibo en la funcion, se llaman parametros, pero cuando yo estoy enviando datos a una funcion, estos se llaman argumentos
 Argumentos por posicion
 Cuando envio un argumento, estos son recibidos por la funcion que yo estoy llamando, y se reciben por orden en los parametros recibidos.
-
 def suma(a, b):
     return a+b
 resultado = suma(5,7) # 5 seria tomara el primer lugar de los parametros, 7 el segundo (a = 5, b = 7)
-
 Sin embargo, puede evadir este orden, si al momento de llamar la funcion y enviar los argumentos a estos les asigno el nombre del parametro
 resta(b=30, a=10)
-
 Tambien esta la llamada sin argumentos
 Si llamamos a un funcion que tiene definidos parametros y al llamarla no le entregamos los argumentos necesarios, dara un error.
-
 def suma(a,b):
     return a+b
-
 suma()#Error
 La funcion suma estara esperando que entreguemos argumentos para los parametros a y b.
 Para lidiar con estos, podemos usar parametros por defecto.
-
 def resta(a=None, b=None):
     if a == None or b == None:
         print("Faltaron los numeros para la ejecucion de la funcione")
         return
     return a-b #En caso de que lleguen los 2 argumentos realizo la operacion.
-
 resta()
+
+Paso por valor y referencia
+Depende del tipo de dato que enviamos a la funcion, podemos diferenciar 2 comportamientos:
+- Paso por valor: Se crea una copia local de la variable dentro de la funcion.
+- Paso por referencia: Se maneja directamente la variable, lo cambios realizados dentro de la funcicon la afectara tambien afuera de esta.
+
+- Los tipos simples se pasan por valor: Enteros, flotantes, cadenas, logicos(int, float, str, bool)
+- Los tipos compuestos se pasan por referencia: Listas, diccionarios, conjuntos(list, dicc, set)
+
+Paso por valor
+Los numeros se pasan por valor, crean una copia dentro de la funcion, por lo que no les afecta lo que se haga con ellos dentro de una funcion
+
+def doble(numero):
+    numero *= 2
+    return numero
+n = 10
+print(doble(n))
+print(n)
 
 """
 
@@ -88,6 +99,13 @@ def suma(a, b):
 
 resultado = suma(5,5)
 print(resultado)
+print("asd")
 
 
+def doble(numero):
+    numero *= 2
+    return numero
+n = 10
+print(doble(n))
+print(n)
 
