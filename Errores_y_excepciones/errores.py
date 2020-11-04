@@ -18,7 +18,7 @@ if len(l) > 0:
     l.pop()
 Otro ejemplo es cuando a traves de input obtenemos datos del usuario y si los queremos operar (como hacer una suma) vamos a tener un error de tipo de dato
 TypeError: unsupported operand type(s) for /: 'str' and 'int', ejemplo.
-Aunque tambien puede pasar al reves, quiero un numero y me dan un texto, aunque este haciendo int() me dara error.
+Aunque tambien puede pasar al reves, quiero un numero y me dan un texto, aunque este haciendo int() me dara error..
 
 
 
